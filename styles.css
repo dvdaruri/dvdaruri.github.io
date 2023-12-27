@@ -6,5 +6,16 @@ body {
   padding: 4em 1em;
   color: #555;
 }
-
+code,
+pre {
+  background: #eee;
+}
+code {
+  padding: 2px 4px;
+  vertical-align: text-bottom;
+}
+\
+pre {
+  padding: 1em;
+}
 
