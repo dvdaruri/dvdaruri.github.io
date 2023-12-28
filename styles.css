@@ -17,6 +17,8 @@ code {
 pre {
   padding: 1em;
 }
+
+/* Style the tab */
 .tab {
   overflow: hidden;
   border: 1px solid #ccc;
@@ -51,4 +53,6 @@ pre {
   border: 1px solid #ccc;
   border-top: none;
 }
+
+
 
