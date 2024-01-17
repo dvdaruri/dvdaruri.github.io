@@ -1,0 +1,29 @@
+
+html {
+  scroll-behavior: smooth;
+}
+
+#ExperiencesHome {
+  height: 600px;
+  background-color: pink;
+}
+
+#IBM {
+  height: 600px;
+  background-color: yellow;
+}
+
+#TimelyCare {
+  height: 600px;
+  background-color: yellow;
+}
+
+#FEAST {
+  height: 600px;
+  background-color: yellow;
+}
+
+
+
+
+

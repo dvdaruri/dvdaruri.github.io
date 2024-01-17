@@ -1,9 +1,13 @@
+
+
+/*all home page*/
+
 body {
   margin: 0 auto;
-  max-width: 50em;
-  font-family: "Helvetica", "Arial", sans-serif;
+  max-width: 55em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   line-height: 1.5;
-  padding: 4em 1em;
+  padding: 0em 1em;
   color: #555;
 }
 code,
@@ -23,6 +27,9 @@ pre {
   overflow: hidden;
   border: none;
   background-color: #FFFFFF;
+  position: fixed;
+  top:0%;
+  width: 100%;
 }
 
 /* Style the buttons that are used to open the tab content */
@@ -34,6 +41,8 @@ pre {
   cursor: pointer;
   padding: 14px 16px;
   transition: 0.3s;
+  font-size: 17px;
+  text-align: center;
 }
 
 /* Change background color of buttons on hover */
@@ -49,8 +58,10 @@ pre {
 /* Style the tab content */
 .tabcontent {
   display: none;
-  padding: none;
-  border-top: none;
+  margin-top: 30px;
+  height: 700px;
+  padding: 16px;
+  border-top: 0.5px solid #ccc;
 }
 /* keep footer grounded to bottom*/
 #page-container {
@@ -69,4 +80,17 @@ pre {
   height: 2.5rem;            /* Footer height */
 }
 
+/* image and text next to each other*/
+.row {
+  display: flex;
+}
 
+.column {
+  flex: 66.66%;
+  padding: 5px;
+}
+
+p{
+  margin: 0;
+  padding: 0;
+}
