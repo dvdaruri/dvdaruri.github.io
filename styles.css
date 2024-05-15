@@ -80,7 +80,7 @@ pre {
   height: 2.5rem;            /* Footer height */
 }
 
-/* image and text next to each other*/
+/* image and text next to each other LOOK AT THIS*/
 .row {
   display: flex;
 }
@@ -90,7 +90,16 @@ pre {
   padding: 5px;
 }
 
+.column2 {
+  flex: 33.33%;
+  padding: 0px;
+}
+
 p{
   margin: 0;
   padding: 0;
 }
+
+
+
+
