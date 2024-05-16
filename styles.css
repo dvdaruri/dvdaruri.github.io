@@ -2,6 +2,15 @@
 
 /*all home page*/
 
+h2{
+  text-align: left;
+  text-indent: 0%; 
+}
+h4{  
+  text-align: left;
+  text-indent: 0%; 
+}
+
 body {
   margin: 0 auto;
   max-width: 55em;
@@ -86,7 +95,6 @@ pre {
 }
 
 .column {
-  
   flex: 66.66%;
   padding: 5px;
 }
